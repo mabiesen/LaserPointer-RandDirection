@@ -1,7 +1,7 @@
 # LaserPointer-RandDirection
 Code for laser pointer dog toy that I built using two servos.
-Two variables are utilized to control servo direction: spam and target.  The reason for these two variables...
-...is to control both the integer and float independently such that servos may run on a pwm duty cycle in random, 0.5 increments.
+Two variables are utilized to control servo direction: spam and target.  The reason for these two variables
+ is to control both the integer and float independently such that servos may run on a pwm duty cycle in random, 0.5 increments.
 
 import RPi.GPIO as GPIO
 import time
